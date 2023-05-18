@@ -27,6 +27,7 @@ class Game:
         background = pygame.image.load("pic/background.jpeg").convert()
         
         dijia = pygame.image.load("pic/dijia.png").convert_alpha()
+        
         while True:
             for event in pygame.event.get():
                 if event.type == pygame.QUIT:
